@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- normal code -->
+    <div id="root">
+        <h1>Hello</h1>
+    </div>
+    <script>
+        const msg = document.createElement("h3");
+        msg.textContent="Hello im from H3";
+        const root = document.getElementById("root").appendChild(msg);
+    </script>
+</body>
+</html>
