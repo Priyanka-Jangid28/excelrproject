@@ -1,0 +1,20 @@
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .feature-box {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .feature-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
